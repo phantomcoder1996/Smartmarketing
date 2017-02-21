@@ -38,9 +38,10 @@ create table events
 	(
 		id int primary key,
 		title varchar(100) not null,
-		edate date check(edate>"2017-1-1"),
+		edate date ,
 		image longblob,
-		description varchar(1000),
+		description varchar(1000)
+
 
 
     );
